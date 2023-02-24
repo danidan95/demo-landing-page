@@ -1,0 +1,163 @@
+[
+        {
+                "id": 1,
+                "bundle_name" : "CT + Contentful",
+                "e_commerce_platform":"Commercetools", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentful",
+                "CMS_space": "lilfby04ns0d",
+                "repository_link":"https://github.com/vsf-customer/contentful-ct-demo", 
+                "demo_link":"https://contentful-ct-demo-hh1n4pdf.europe-west1.gcp.storefrontcloud.io/home-page"
+        },
+        {
+                "id": 2,
+                "bundle" : "CT + Contentstack",
+                "e_commerce_platform":"Commercetools", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentstack",
+                "CMS_space": "TBD",
+                "repository_link":"https://github.com/vsf-customer/master-sales-demo", 
+                "demo_link":"https://master-sales-demo-fb633d5a.europe-west1.gcp.storefrontcloud.io/"
+        },
+        {
+                "id": 3,
+                "bundle" : "CT + Bloomreach",
+                "e_commerce_platform":"Commercetools", 
+                "e_commerce_space": "TBD",
+                "CMS":"Bloomreach",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 4,
+                "bundle" : "CT + Amplience",
+                "e_commerce_platform":"Commercetools", 
+                "e_commerce_space": "TBD",
+                "CMS":"Amplience",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 5,
+                "bundle" : "SAP + Contentful",
+                "e_commerce_platform":"SAP", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentful",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 6,
+                "bundle" : "SAP + Contentstack",
+                "e_commerce_platform":"SAP", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentstack",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 7,
+                "bundle" : "SAP + Bloomreach",
+                "e_commerce_platform":"SAP", 
+                "e_commerce_space": "TBD",
+                "CMS":"Bloomreach",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 8,
+                "bundle" : "SAP + Amplience",
+                "e_commerce_platform":"SAP", 
+                "e_commerce_space": "TBD",
+                "CMS":"Amplience",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 9,
+                "bundle" : "BC + Contentful",
+                "e_commerce_platform":"Big Commerce", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentful",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 10,
+                "bundle" : "BC + Contentstack",
+                "e_commerce_platform":"Big Commerce", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentstack",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 11,
+                "bundle" : "BC + Bloomreach",
+                "e_commerce_platform":"Big Commerce", 
+                "e_commerce_space": "TBD",
+                "CMS":"Bloomreach",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 12,
+                "bundle" : "BC + Amplience",
+                "e_commerce_platform":"Big Commerce", 
+                "e_commerce_space": "TBD",
+                "CMS":"Amplience",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 13,
+                "bundle" : "MG2 + Contentful",
+                "e_commerce_platform":"Magento 2", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentful",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 14,
+                "bundle" : "MG2 + Contentstack",
+                "e_commerce_platform":"Magento 2", 
+                "e_commerce_space": "TBD",
+                "CMS":"Contentstack",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 15,
+                "bundle" : "MG2 + Bloomreach",
+                "e_commerce_platform":"Magento 2", 
+                "e_commerce_space": "TBD",
+                "CMS":"Bloomreach",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD"
+        },
+        {
+                "id": 16,
+                "bundle" : "MG2 + Amplience",
+                "e_commerce_platform":"Magento 2", 
+                "e_commerce_space": "TBD",
+                "CMS":"Amplience",
+                "CMS_space": "TBD",
+                "repository_link":"TBD", 
+                "demo_link":"TBD",
+                "search": ""
+        }
+]
