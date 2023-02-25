@@ -2,9 +2,13 @@ import './App.css';
 import tableData from "./table_data.json";
 import * as React from "react";
 import { useTable } from 'react-table';
+import Table from "./Table";
 
 function App() {
   const data = React.useMemo(() => tableData, []);
+  const [searchString, setSearchString] = React.useState('');
+
+
   const columns = React.useMemo(() => [
     {
       Header: "ID",
@@ -68,6 +72,8 @@ function App() {
         </svg>
       </div>
 
+      <input type="text" value={searchString} onChange={(e) => setSearchString(e.target.value)} />
+
       <div className='container'>
         <table {...getTableProps()}>
           <thead>
@@ -87,9 +93,6 @@ function App() {
               return (
                 <tr {...row.getRowProps()}>
                   {row.cells.map((cell) => {
-
-
-                  
                   return (
                     <td {...cell.getCellProps()}>
                         {cell.render("Cell")}
@@ -102,6 +105,7 @@ function App() {
           </tbody>
         </table>  
 
+        {/* <Table searchString = {searchString} />  */}
 
       </div>
     </div>

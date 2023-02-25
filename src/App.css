@@ -51,13 +51,13 @@ th {
 thead th {
   background-color: #55608f;
 }
-/* tbody tr:hover {
+tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.3);
-} */
+}
 tbody td {
   position: relative;
 }
-/* tbody td:hover:before {
+tbody td:hover:before {
   content: "";
   position: absolute;
   left: 0;
@@ -66,4 +66,4 @@ tbody td {
   bottom: -9999px;
   background-color: rgba(255, 255, 255, 0.2);
   z-index: -1;
-} */
+}
