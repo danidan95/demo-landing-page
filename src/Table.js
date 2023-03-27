@@ -2,10 +2,12 @@ import './App.css';
 import initialTableData from "./table_data.json";
 import * as React from "react";
 
-// define header into an array 
+/* NEW FEATURES ideas
+// define custom header into an array 
 // delete rows
 // filter columns
 // add rows
+*********************** */
 
 export default function Table({searchString}) {
 

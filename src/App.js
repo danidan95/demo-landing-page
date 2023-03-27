@@ -1,53 +1,9 @@
 import './App.css';
-import tableData from "./table_data.json";
 import * as React from "react";
-import { useTable } from 'react-table';
 import Table from "./Table";
 
 function App() {
-  const data = React.useMemo(() => tableData, []);
   const [searchString, setSearchString] = React.useState('');
-
-
-  const columns = React.useMemo(() => [
-    {
-      Header: "ID",
-      accessor: "id",
-    },
-    {
-      Header: "Bundle Name",
-      accessor: "bundle_name",
-    },
-    {
-      Header: "E-commerce Platform",
-      accessor: "e_commerce_platform",
-    },
-    {
-      Header: "E-commerce Space",
-      accessor: "e_commerce_space",
-    },
-    {
-      Header: "CMS",
-      accessor: "CMS",
-    },
-    {
-      Header: "CMS Space",
-      accessor: "CMS_space",
-    },
-    {
-      Header: "GitHub Repository",
-      accessor: "repository_link"
-    },
-    {
-      Header: "Cloud Demo",
-      accessor: "demo_link"
-    }
-  ], 
-    []
-  );
-
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = 
-    useTable({ columns, data });
 
   return (
     <div className="App">
@@ -72,41 +28,12 @@ function App() {
         </svg>
       </div>
 
-      <input type="text" value={searchString} onChange={(e) => setSearchString(e.target.value)} />
+      <div className='searchContainer'>
+        <input type="text" value={searchString} onChange={(e) => setSearchString(e.target.value)} />
+      </div>
 
       <div className='container'>
-        <table {...getTableProps()}>
-          <thead>
-            {headerGroups.map((headerGroup) => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
-                  {headerGroup.headers.map((column) => (
-                    <th {...column.getHeaderProps()}>
-                        {column.render("Header")}
-                    </th>
-                  ))}
-              </tr>
-            ) )}
-          </thead>
-          <tbody {...getTableBodyProps()}>
-            {rows.map((row) => {
-              prepareRow(row);        //preparing each row that we are rendering, and it takes the row as an argument, it can be used to perform any neccesary calculation on how to format the row 
-              return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map((cell) => {
-                  return (
-                    <td {...cell.getCellProps()}>
-                        {cell.render("Cell")}
-                    </td>
-                    )}
-                  )}
-                </tr>
-              )
-            })}          
-          </tbody>
-        </table>  
-
-        {/* <Table searchString = {searchString} />  */}
-
+        <Table searchString = {searchString} /> 
       </div>
     </div>
   );

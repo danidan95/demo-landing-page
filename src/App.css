@@ -20,15 +20,24 @@ body {
   max-height: 600px;
   overflow-y: scroll;
   justify-content: center;
-  margin: 70px;
-}
-  /* position: absolute;
+  /* margin: 70px; */
+  position: absolute;
   top: 50%;
   left: 50%;
-  max-height: 600px;
   overflow-y: scroll;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);  */
+  transform: translate(-50%, -50%); 
+}
+  
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+}
+
+input {
+  width: 400px;
+}
 
 table {
   width: 800px;
@@ -56,14 +65,4 @@ tbody tr:hover {
 }
 tbody td {
   position: relative;
-}
-tbody td:hover:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -9999px;
-  bottom: -9999px;
-  background-color: rgba(255, 255, 255, 0.2);
-  z-index: -1;
 }

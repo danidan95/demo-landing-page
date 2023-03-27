@@ -3,7 +3,7 @@
                 "id": 1,
                 "bundle_name" : "CT + Contentful",
                 "e_commerce_platform":"Commercetools", 
-                "e_commerce_space": "TBD",
+                "e_commerce_space": "Default Template Store",
                 "CMS":"Contentful",
                 "CMS_space": "lilfby04ns0d",
                 "repository_link":"https://github.com/vsf-customer/contentful-ct-demo", 
@@ -13,7 +13,7 @@
                 "id": 2,
                 "bundle" : "CT + Contentstack",
                 "e_commerce_platform":"Commercetools", 
-                "e_commerce_space": "TBD",
+                "e_commerce_space": "Default Template Store",
                 "CMS":"Contentstack",
                 "CMS_space": "TBD",
                 "repository_link":"https://github.com/vsf-customer/master-sales-demo", 
@@ -157,7 +157,6 @@
                 "CMS":"Amplience",
                 "CMS_space": "TBD",
                 "repository_link":"TBD", 
-                "demo_link":"TBD",
-                "search": ""
+                "demo_link":"TBD"
         }
 ]
