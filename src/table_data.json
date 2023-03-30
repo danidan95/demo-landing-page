@@ -5,7 +5,7 @@
                 "e_commerce_platform":"Commercetools", 
                 "e_commerce_space": "Default Template Store",
                 "CMS":"Contentful",
-                "CMS_space": "lilfby04ns0d",
+                "CMS_space": "https://app.contentful.com/spaces/lilfby04ns0d/home",
                 "repository_link":"https://github.com/vsf-customer/contentful-ct-demo", 
                 "demo_link":"https://contentful-ct-demo-hh1n4pdf.europe-west1.gcp.storefrontcloud.io/home-page"
         },
@@ -155,7 +155,7 @@
                 "e_commerce_platform":"Magento 2", 
                 "e_commerce_space": "Default Template Store",
                 "CMS":"Amplience",
-                "CMS_space": "https://content.amplience.net/#!/egodemo/authoring/content-items",
+                "CMS_space": "https://ondemand.amplience.com/dam?alerts=true#/assets",
                 "repository_link":"https://github.com/vsf-customer/magento2-amplience-demo", 
                 "demo_link":"https://magento2-a-gudmuz4l.europe-west1.gcp.storefrontcloud.io/"
         }
