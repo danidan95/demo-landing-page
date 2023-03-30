@@ -18,7 +18,7 @@ export default function Table({searchString}) {
         }, []);
 
         const getTableHeader = (columnName, cell) => {
-                if ((columnName === "repository_link" || columnName === "demo_link") && cell !== "TBD") {
+                if ((columnName === "repository_link" || columnName === "demo_link" || columnName === "CMS_space") && cell !== "TBD") {
                         return (
                                 <td>
                                         <a href={cell} target='_blank' rel='noreferrer'> {cell} </a>
